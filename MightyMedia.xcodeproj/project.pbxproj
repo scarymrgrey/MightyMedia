@@ -6,11 +6,34 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		A36814C81CF75CE900CEC6A2 /* VideoProcessManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProcessManager.swift; sourceTree = "<group>"; };
+		A36814C91CF75CF200CEC6A2 /* AudioUnitsWithFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnitsWithFilters.swift; sourceTree = "<group>"; };
+		A36814CA1CF75CF200CEC6A2 /* DefaultAudioTracks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAudioTracks.swift; sourceTree = "<group>"; };
+		A36814CB1CF75CF900CEC6A2 /* DirectoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryManager.swift; sourceTree = "<group>"; };
+		A36814CD1CF75D2F00CEC6A2 /* ObjectiveCAudioRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCAudioRenderer.m; sourceTree = "<group>"; };
+		A36814CE1CF75D3500CEC6A2 /* ObjectiveCAudioRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveCAudioRenderer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		A36814C11CF75C4300CEC6A2 = {
 			isa = PBXGroup;
 			children = (
+				A36814CC1CF75D1300CEC6A2 /* RenderLibrary */,
+				A36814C81CF75CE900CEC6A2 /* VideoProcessManager.swift */,
+				A36814C91CF75CF200CEC6A2 /* AudioUnitsWithFilters.swift */,
+				A36814CA1CF75CF200CEC6A2 /* DefaultAudioTracks.swift */,
+				A36814CB1CF75CF900CEC6A2 /* DirectoryManager.swift */,
 			);
+			sourceTree = "<group>";
+		};
+		A36814CC1CF75D1300CEC6A2 /* RenderLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				A36814CE1CF75D3500CEC6A2 /* ObjectiveCAudioRenderer.h */,
+				A36814CD1CF75D2F00CEC6A2 /* ObjectiveCAudioRenderer.m */,
+			);
+			name = RenderLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
